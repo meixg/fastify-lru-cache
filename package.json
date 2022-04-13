@@ -1,0 +1,30 @@
+{
+  "name": "fastify-lru-cache",
+  "version": "1.0.0",
+  "description": "fastify plugin for lru cache",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meixg/fastify-lru-cache.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meixg/fastify-lru-cache/issues"
+  },
+  "homepage": "https://github.com/meixg/fastify-lru-cache#readme",
+  "peerDependencies": {
+    "lru-cache": "^7.8.1"
+  },
+  "dependencies": {
+    "fastify-plugin": "^3.0.1"
+  },
+  "devDependencies": {
+    "fastify": "^3.28.0",
+    "tap": "^16.0.1"
+  }
+}
